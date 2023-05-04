@@ -1,6 +1,4 @@
-new ClipboardJS('p#serverIP');
-var clipboard = new ClipboardJS('p#serverIP');
-var getsnack = document.getElementById("snackbar");
+
 
 clipboard.on('success', function(e) {
     getsnack.classList.add('show');
